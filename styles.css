@@ -69,7 +69,7 @@
     }
 
     .logo-img {
-      height: 110px;
+      height: 50px;
       transition: all 0.3s ease;
     }
 
@@ -993,6 +993,15 @@
       max-width: 280px;
       margin: 0 auto;
     }
+
+    .team-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;       /* fills the circle without stretching */
+  border-radius: 50%;      /* ensures perfect circle */
+  position: relative;
+  z-index: 2;
+}
 
     /* CTA Section */
     .cta-section {
